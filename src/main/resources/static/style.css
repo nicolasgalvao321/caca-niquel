@@ -1,0 +1,36 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    background:#111;
+    color:white;
+}
+
+/* Centraliza tudo na tela */
+.maquina{
+    display:flex;
+    justify-content:center;   /* centraliza horizontal */
+    align-items:center;       /* centraliza vertical dos itens */
+    gap:20px;                 /* espaço entre os rolos */
+    margin:30px auto;
+}
+
+/* Cada slot */
+.rolo{
+    width:100px;
+    height:100px;
+    border:3px solid gold;
+    font-size:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:black;
+}
+
+/* Botão */
+button{
+    padding:15px 40px;
+    font-size:20px;
+    background:gold;
+    border:none;
+    cursor:pointer;
+}
